@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Epilogue', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+
+.agency-container{
+    max-width: 1340px;
+    margin: auto;
+}
+.agency{
+    background-color:#fdf0e9;
+   
+    padding: 50px 100px;
+}
+
+.agency-content{
+    padding-left: 20px;
+    margin-right: 30px;
+}
+.service{
+    width: 78px;
+    height: 32px;
+    
+}
+.service a{
+    color: #EF6D58;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+}
+
+.agency-title{
+    width: 336px;
+    height: 96px;
+}
+
+.agency-title h3{
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: bolder;
+    color: #391400;
+}
+
+.cards{
+    display: flex;
+}
+
+.cards .card{
+  
+    padding: 40px;
+    margin-right: 30px;
+    border: 1px solid #f8ded2;
+    border-radius: 0px 6px 6px 0px;
+    position: relative;
+
+}
+
+.icon{
+    margin-bottom: 20px;
+}
+
+
+
+.svg-icon {
+    position: absolute;
+    left: 64px;
+    top: 64px;
+    right: 0;
+    bottom: 0;
+
+}
+
+.title{
+    color: #391400;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.text{
+    color: rgba(57, 20, 0, 0.64);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 285px;
+}
+
+
+.learn-more a{
+    color: #391400;
+}
